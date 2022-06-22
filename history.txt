@@ -1,0 +1,200 @@
+  458  docker exec -it a671b98abfd9 sh
+  459  docker ps
+  460  docker exec -it c4390a7ce7b4 sh
+  461  docker ps
+  462  docker exec -it eefb640983f2 sh
+  463  docker ps
+  464  docker exec -it 63453ecab302 sh
+  465  docker ps
+  466  docker exec -it 9d6f903bf9d8 bash
+  467  docker exec -it 29b14bb78b1a bash
+  468  docker ps
+  469  docker exec -it 63453ecab302 sh
+  470  sudo lsof -i -P -n | grep LISTEN
+  471  sudo apt update
+  472  sudo snap refresh
+  473  sudo service postgresql stop
+  474  sudo lsof -i :8080
+  475  sudo lsof -i :80
+  476  sudo lsof -i :5432
+  477  cd code_stuff/
+  478  ls
+  479  cd demiportfolio/
+  480  docker-compose u[
+  481  docker-compose up
+  482  sudo service postgres stop
+  483  docker ps
+  484  docker ps -a
+  485  docker-compose up
+  486  sudo lsof -i :5432 | grep LISTEN
+  487  sudo service postgresql stop
+  488  docker-compose up
+  489  cd ~/Documents/
+  490  ls
+  491  ssh -i ubuntu-ec2-instance-key-i-guess.pem i-0f5f0f47d2fddbad9@ec2-44-204-195-151.compute-1.amazonaws.com
+  492  ssh -i ubuntu-ec2-instance-key-i-guess.pem ec2-practice@ec2-44-204-195-151.compute-1.amazonaws.com
+  493  chmod 400 ubuntu-ec2-instance-key-i-guess.pem 
+  494  ssh -i ubuntu-ec2-instance-key-i-guess.pem ec2-practice@ec2-44-204-195-151.compute-1.amazonaws.com
+  495  ssh -i ubuntu-ec2-instance-key-i-guess.pem ec2-user@ec2-44-204-195-151.compute-1.amazonaws.com
+  496  ssh -i ubuntu-ec2-instance-key-i-guess.pem ubuntu@ec2-44-204-195-151.compute-1.amazonaws.com
+  497  cd ~/Documents/
+  498  ls
+  499  ec2
+  500  ssh -i ubuntu-ec2-instance-key-i-guess.pem ubuntu@ec2-44-204-195-151.compute-1.amazonaws.com
+  501  sudo nano ~/.bash_aliases
+  502  source ~/.bashrc
+  503  ec2
+  504  cd Documents/
+  505  ec2
+  506  cd Documents/
+  507  ec2
+  508  cd "/home/demigorrgon/code_stuff/demiportfolio"
+  509  git merge "very-experimental-stuff-don't-entry-it'll-kill-you-with-dumbassery"
+  510  git branch -v
+  511  ls
+  512  docker-compose up --build
+  513  cd Documents/
+  514  ls
+  515  scp -i ubuntu-ec2-instance-key-i-guess.pem /home/demigorrgon/code_stuff/demiportfolio/frontend/portfolio_frontend/src/assets/muh_face_somewhatok_edited_hair.png  /home/demigorrgon/code_stuff/demiportfolio/frontend/portfolio_frontend/src/assets/github-pic.png ubuntu@ec2-44-204-195-151.compute-1.amazonaws.com
+  516  scp -i ubuntu-ec2-instance-key-i-guess.pem /home/demigorrgon/code_stuff/demiportfolio/frontend/portfolio_frontend/src/assets/muh_face_somewhatok_edited_hair.png  /home/demigorrgon/code_stuff/demiportfolio/frontend/portfolio_frontend/src/assets/github-pic.png ubuntu@ec2-44-204-195-151.compute-1.amazonaws.com:~/pics/
+  517  scp -i ubuntu-ec2-instance-key-i-guess.pem /home/demigorrgon/code_stuff/demiportfolio/frontend/el_shopperino_frontend/src/assets/goblin-head.png ubuntu@ec2-44-204-195-151.compute-1.amazonaws.com:~/pics/
+  518  sudo apt install gthumb
+  519  gthumb
+  520  cd frontend/
+  521  cd portfolio_frontend/
+  522  ls
+  523  npm run serve
+  524  sudo systemctl restart zoom
+  525  top
+  526  top | grep 'zoom'
+  527  htop
+  528  top | grep 'zoom'
+  529  top | grep 'chrome'
+  530  nano ~/.bashrc
+  531  ls
+  532  cd code_stuff/
+  533  ls
+  534  touch homework_10_linux.sh
+  535  ls
+  536  cat ~/.bash_aliases > homework_10_linux.sh 
+  537  cat homework_10_linux.sh 
+  538  nano homework_10_linux.sh 
+  539  cat homework_10_linux.sh 
+  540  nano homework_10_linux.sh 
+  541  ls
+  542  mkdir homework_10_linux
+  543  mv homework_10_linux.sh homework_10_linux
+  544  ls
+  545  cd homework_10_linux/
+  546  ls
+  547  tmux
+  548  sudo apt install tmux
+  549  sudo add-apt-repository ppa:obsproject/obs-studio
+  550  sudo apt update
+  551  sudo apt install obs-studio
+  552  history
+  553  obs-studio
+  554  tmux
+  555  tmux ls
+  556  tmux a
+  557  tmux kill 0
+  558  tmux kill-session 0
+  559  ls
+  560  tmux ls
+  561  tmux kill-session -t 0
+  562  tmux ls
+  563  clear
+  564  tmux new -s s1
+  565  tmux new -s s2
+  566  tmux new -s s3
+  567  tmux ls
+  568  xargs tmux kill-session -a
+  569  tmux ls
+  570  ls
+  571  xargs touch < somefile.txt
+  572  tmux kill-session -a
+  573  tmux ls
+  574  tmux a s3
+  575  tmux -a s3
+  576  tmux a
+  577  pkill -f tmux
+  578  tmux ls
+  579  clart
+  580  clear
+  581  tmux new -s s1
+  582  tmux ls
+  583  tmux new -s s2
+  584  tmux a
+  585  pkill -f tmux
+  586  ls
+  587  clear
+  588  tmux new -s s1
+  589  tmux new -s s2
+  590  tmux new -s s3
+  591  tmux ;s
+  592  tmux ls
+  593  tmux kill-session -t 3
+  594  tmux ls
+  595  pkill -f tmux
+  596  tmux ls
+  597  tmux new -s s1
+  598  tmux ls
+  599  tmux list-sessions | awk 'BEGIN{FS=":"}{print $1}' |      ifne xargs -n 1 tmux kill-session -t
+  600  tmux ls
+  601  tmux a
+  602  ls
+  603  git status
+  604  git clone https://github.com/demigorrgon/homework_10_linux.git
+  605  ls
+  606  cd homework_10_linux/
+  607  gs
+  608  git status
+  609  mv ../homework_10_linux.sh .
+  610  ls
+  611  nano README.md 
+  612  git status
+  613  git add -A
+  614  git commit -m "Add bash_aliases file"
+  615  git push origin main
+  616  touch words
+  617  nano words 
+  618  grep -i '^c' states.txt | awk '{$print $4}'| words touch
+  619  ls
+  620  cat words > words.txt
+  621  ls
+  622  rm words
+  623  clear
+  624  ls
+  625  cat words.txt 
+  626  grep -i '^c' states.txt | awk '{$print $4}'| words.txt touch
+  627  grep -i '^c' states.txt |awk '{$print $4}'|words.txt touch
+  628  grep -i '^c' states.txt |awk '{print $4}'|words.txt touch
+  629  ls
+  630  cat states.txt 
+  631  clear
+  632  grep -i '^c' states.txt |awk '{print $5}'|words.txt touch
+  633  grep -i '^c' states.txt |awk '{print $4}'|words.txt touch
+  634  grep -i '^c' states.txt |awk '{print $4}'|./words.txt touch
+  635  chmod 700 words.txt 
+  636  grep -i '^c' states.txt |awk '{print $4}'|./words.txt touch
+  637  ls
+  638  touch words
+  639  cat words.txt > words
+  640  grep -i '^c' states.txt |awk '{print $4}'|words touch
+  641  find . -iname '*.tmp' | words rm
+  642  ps | awk 'NR !=1 {print $4}'|words mkdir
+  643  ps | awk 'NR !=1 {print $4}'|words.txt mkdir
+  644  ls
+  645  gs
+  646  git status
+  647  git commit -m "Add other hw part"
+  648  git add .
+  649  git commit -am "Add other hw files"
+  650  git push origin main
+  651  history > history.txt
+  652  cat history.txt 
+  653  history 635
+  654  history 30
+  655  history 100
+  656  history 200
+  657  history 200 > history.txt
