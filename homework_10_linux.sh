@@ -1,0 +1,12 @@
+alias mm="python3 manage.py makemigrations"
+alias migrate="python3 manage.py migrate"
+alias rs="python3 manage.py runserver"
+alias cenv="python3 -m venv venv"
+alias ec2="ssh -i ubuntu-ec2-instance-key-i-guess.pem ubuntu@ec2-44-204-195-151.compute-1.amazonaws.com"
+# homework
+alias gs="git status"
+alias gf="git fetch"
+alias gp="git pull"
+alias gpr="git pull -r"
+alias clean="git clean -xfd ./"
+alias gl="git log"
